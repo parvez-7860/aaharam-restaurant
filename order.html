@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Order Online</title>
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<link href="style.css" rel="stylesheet">
+<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet">
+</head>
+<body>
+
+<div class="container section">
+<h2 class="text-center mb-5">Order Food</h2>
+
+<div class="row">
+
+<div class="col-md-4">
+<div class="card p-3">
+<h5>Chicken Biryani</h5>
+<p>₹250</p>
+<button class="btn btn-gold" onclick="addToCart('Chicken Biryani',250)">Add to Cart</button>
+</div>
+</div>
+
+<div class="col-md-4">
+<div class="card p-3">
+<h5>Mutton Biryani</h5>
+<p>₹350</p>
+<button class="btn btn-gold" onclick="addToCart('Mutton Biryani',350)">Add to Cart</button>
+</div>
+</div>
+
+<div class="col-md-4">
+<div class="card p-3">
+<h5>Tandoori Chicken</h5>
+<p>₹400</p>
+<button class="btn btn-gold" onclick="addToCart('Tandoori Chicken',400)">Add to Cart</button>
+</div>
+</div>
+
+</div>
+</div>
+
+<div class="cart-box">
+<h6>Your Cart</h6>
+<div id="cartItems"></div>
+<p id="total"></p>
+<button class="btn btn-success w-100" onclick="sendWhatsApp()">Order via WhatsApp</button>
+</div>
+
+<script src="script.js"></script>
+</body>
+</html>

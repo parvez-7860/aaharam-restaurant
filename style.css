@@ -1,0 +1,85 @@
+body {
+    font-family: 'Poppins', sans-serif;
+    background: #fffaf5;
+    color: #333;
+}
+
+.navbar {
+    background: white;
+    box-shadow: 0 4px 15px rgba(0,0,0,0.08);
+}
+
+.navbar-brand {
+    font-weight: 700;
+    font-size: 26px;
+    color: #c59d5f !important;
+}
+
+.nav-link {
+    color: #333 !important;
+    font-weight: 500;
+}
+
+.nav-link:hover {
+    color: #c59d5f !important;
+}
+
+.hero {
+    height: 100vh;
+    background: linear-gradient(rgba(255,255,255,0.6), rgba(255,255,255,0.6)),
+    url('https://images.unsplash.com/photo-1555396273-367ea4eb4db5') center/cover;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+
+.hero h1 {
+    font-size: 60px;
+    font-weight: 700;
+    color: #c59d5f;
+}
+
+.btn-gold {
+    background: #c59d5f;
+    color: white;
+    border-radius: 30px;
+    padding: 10px 25px;
+    border: none;
+}
+
+.btn-gold:hover {
+    background: #a67c3b;
+}
+
+.section {
+    padding: 80px 0;
+}
+
+.card {
+    border: none;
+    box-shadow: 0 4px 20px rgba(0,0,0,0.08);
+    transition: 0.4s;
+}
+
+.card:hover {
+    transform: translateY(-10px);
+}
+
+.footer {
+    background: #111;
+    color: white;
+    padding: 30px;
+    text-align: center;
+}
+
+.cart-box {
+    position: fixed;
+    right: 20px;
+    bottom: 80px;
+    background: white;
+    padding: 15px;
+    box-shadow: 0 4px 20px rgba(0,0,0,0.15);
+    width: 250px;
+  }
+  
